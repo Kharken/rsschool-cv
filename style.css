@@ -3,3 +3,7 @@
 	padding: 0;
 	box-sizing: border-box;
 }
+.user__logo{
+	width: 150px;
+	height: auto;
+}
