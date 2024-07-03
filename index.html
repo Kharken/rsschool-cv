@@ -1,12 +1,97 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="reset.css">
 	<link rel="stylesheet" href="style.css">
 	<title>Yuriy Andreev</title>
 </head>
+
 <body>
-	<img src="https://e.radikal.host/2024/06/19/photo1678693618-2.jpg" alt="Yuriy Andreev" width="853" height="1280" class="user__logo">
+	<div class="container">
+		<header class="header__inner">
+			<nav class="header__nav">
+				<div class="person__photo"><img src="https://e.radikal.host/2024/06/19/photo1678693618-2.jpg"
+						alt="Yuriy Andreev" width="853" height="1280" class="person__pic"></div>
+				<div class="person__title">
+					<h1 class="person__name">Yuriy Andreev</h1>
+					<p class="person__position">Frontend intern</p>
+				</div>
+				<ul class="person__contacts--list">
+					<h2 class="person__contacts--title">Contacts:</h2>
+					<li class="person__contacts--item"><a href="tel: +79163543870" class="person__contacts--link">Phone</a></li>
+					<li class="person__contacts--item"><a href="mailto:andreyev.yury@gmail.com"
+							class="person__contacts--link"></a>Email</li>
+					<li class="person__contacts--item"><a href="tg://resolve?domain=Kharken"
+							class="person__contacts--link">Telegram</a></li>
+					<li class="person__contacts--item"><a href="discordapp.com/users/1241799870990254160"
+							class="person__contacts--link"></a>Discord</li>
+				</ul>
+
+			</nav>
+
+		</header>
+		<main>
+			<section class="person--about">
+				<h2 class="person--about__title">About</h2>
+				<p class="person--about__text">My name is Yuriy. For over 13 years, I have worked in various branches of
+					chemical technology. I recently made the decision to change my field of work, and I started studying to become
+					a frontend developer from April 2024.</p>
+				<p class="person--about__text">During my career in chemistry I have worked in different roles: development
+					engineer, project manager, production manager and have gained skills in commercial development, project
+					management, human resource management.</p>
+				<p class="person--about__text">Now I'm determined to change my field to frontend development, and I'm sure that
+					my previous experience along with various training programs will help me become a great programmer.</p>
+			</section>
+			<section class="person--skills">
+				<h2 class="person--skills__title">Skills</h2>
+				<p class="person--skills__text">HTML/CSS/JS - basics</p>
+			</section>
+			<section class="code--example">
+				<h2 class="code--example__title">Code example</h2>
+				<p class="code--example__subtitle">codewars (8 kyu)</p>
+				<p class="code--example--description"><span class="code--example--description__title">Task
+						description</span><span class="code--example--description__text">Write a program that finds the summation of every number from 1 to num. The number
+						will always be a positive integer greater than 0. Your function only needs to return the result, what is
+						shown between parentheses in the example below is how you reach that result and it's not part of it, see the
+						sample tests.</span>
+
+				</p>
+				<p class="code--example--solution">
+					<span class="code--example--solution__title">My solution</span>
+					<pre>
+						<code>
+							const summation = function (num) {
+								let sum = 0
+									for (let i = 1; i <= num; i++){
+								sum += i
+								};
+								return sum;
+					</code>
+				</pre>
+				</p>
+			</section>
+			<section class="english--level">
+				<h2 class="english--level__title">
+					English level
+				</h2>
+				<p class="english--level__text">
+					Pre-intermediate
+				</p>
+			</section>
+		</main>
+		<footer>
+			<!-- <a href="https://github.com/Kharken" target="_blank" class="person--github__link"></a> -->
+			 <ul class="cv--footer__list">
+				<li class="cv--footer__item"><a href="https://rs.school/images/rs_school_js.svg" class="cv--footer__link">Logo</a></li>
+				<li class="cv--footer__item"><a href="https://rs.school/courses/javascript-ru" class="cv--footer__link">RS School Course</a></li>
+				<li class="cv--footer__item"><a href="https://github.com/Kharken" class="cv--footer__link">Github</a></li>
+				<li class="cv--footer__item">2024</li>
+			 </ul>	
+		</footer>
+	</div>
 </body>
+
 </html>

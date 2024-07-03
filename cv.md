@@ -1,4 +1,4 @@
-[rsschool-cv]("https://github.com/Kharken/rsschool-cv") - Доделать ссылку на гитхаб
+[rsschool-cv]("https://github.com/Kharken/rsschool-cv")
 ___
 #  Yuriy Andreev
 [![photo1678693618-2.th.jpg](https://e.radikal.host/2024/06/19/photo1678693618-2.th.jpg)](https://radikal.host/i/f528mI)
