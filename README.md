@@ -1,1 +1,1 @@
-# rsschool-cv
+	[Yuriy Andreev CV](https://Kharken.github.io/rsschool-cv/)
